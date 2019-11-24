@@ -4,6 +4,22 @@ body {
   line-height: 1;
 }
 
+#nowHour {
+  color: red;
+  font-size: 30px;
+}
+
+.time {
+  background-color: rgb(138, 232, 248);
+  font-size: 25px;
+  text-align: center;
+}
+
+.save {
+  background-color: rgb(10, 166, 194);
+  color: white;
+}
+
 textarea{
   background: transparent;
   border: none;
@@ -15,9 +31,9 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  color: black;
+  color: rgb(10, 166, 194);
   border-radius: 0;
-  border-bottom: 10px solid black; 
+  border-bottom: 10px solid rgb(10, 166, 194); 
 }
 
 .description{
@@ -60,7 +76,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: rgb(10, 166, 194);
   color: white;
 }
 

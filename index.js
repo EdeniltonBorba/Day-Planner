@@ -1,6 +1,9 @@
 var container = document.querySelector("#calendarList");
 var currentHour = parseInt(moment().format('H'));
 
+var nowHour = document.querySelector("#nowHour");
+nowHour.innerHTML = moment().format('MMMM Do YYYY, h:mm:ss a');
+
 
 for (var i=9; i <= 17; i++) {
     var className;
